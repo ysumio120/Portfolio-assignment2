@@ -1,25 +1,32 @@
-body, html {
-	height: 100%;
-}
-#wrapper {
+html {
 	min-height: 100%;
-	margin-bottom: -100px;
-	
+	position: relative;
+}
+body {
+	min-height: 100%;
+	margin-bottom: 90px;
 }
  hr {
  	color: #c8c8c8;
  }
+
+p {
+	font-size: 16px;
+}
+
 #profile_pic {
-	width: 250px;
+	width: 222px;
 	height: 300px;
+	margin-right: 15px;
 	padding-bottom: 15px;
+	float: left;
 }
 
-#portfolio div a img {
+/*.thumbnail a>img {
 	width: 250px;
-	height: 200px;
+	height: 180px;
 }
-
+*/
 .thumbnail:hover {
 	background-color: #4b4b4b;
 }
@@ -69,7 +76,7 @@ textarea {
 }
 
 #sidepanel {
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 
 .panel-heading h3{
@@ -96,10 +103,14 @@ textarea {
 }
 
 #footer {
-	text-align: center;
-	clear: both;
-	background-color: #c8c8c8;
-	padding: 25px;
-	color: #272b30;
+	height: 90px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #c8c8c8;
+  padding: 40px;
+  color: #272b30;
 }
 

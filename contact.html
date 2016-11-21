@@ -5,7 +5,7 @@
 		<title>Profile</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/resets.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
@@ -23,15 +23,16 @@
 				</ul>
 			</div>
 		</nav>
-		<!-- Contact and Sidebar -->
 		<div id="content">
 			<div class= "container">
-				
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>Contact Me</h1>
+					</div>
+				</div><hr>
 				<div class="row">
 					<!-- Main Content -->
-					<div class="col-lg-8">
-						<h1>Contact</h1>
-						<hr>
+					<div class="col-lg-9">
 							<form>
 								Name: <br>
 								<input type="text" name="name" placeholder="John Smith"> <br>
@@ -39,11 +40,12 @@
 								<input type="text" name="email" placeholder="example@gmail.com"> <br>
 								Message: <br>
 								<textarea name="message" rows="14"></textarea> <br>
-								<button class="btn btn-default" type="submit" name="submit">Submit</button>	
+								<button class="btn btn-default" type="submit" name="submit">Submit</button>
+								<span><i>Currently does not work</i></span>
 							</form>
 					</div>
 					<!-- Sidebar -->
-					<div id="sidepanel" class="col-lg-4">
+					<div id="sidepanel" class="col-lg-3 col-md-4 col-sm-4">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">Connect with Me</h3>
@@ -57,10 +59,7 @@
 					</div>
 				</div>
 			</div>
-		
 			<!-- Footer -->
-			<!-- <div id="push"></div> -->
-			<div id=footer_bar></div>
 			<footer id="footer">
 				<p>&copy Copyright 2016 Yuuta Sumioka</p>
 			</footer>
